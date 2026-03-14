@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    color: #303030;
+}
+
+header {
+    background-color: #2965f1;
+    padding: 23px 0;
+}
+
+header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-section {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-width: 1440px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.main-image {
+    max-width: 715px;
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+select {
+    width: 150px;
+    height: 36px;
+    padding: 12px 0;
+    background: url(./assets/images/Vector.svg) no-repeat;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-bottom: 25px;
+}
+
+.frameworks-list {
+    font-weight: 400;
+    font-size: 16px;
+
+    list-style-image: url(./assets/images/Marker.svg);
+    padding-left: 20px;
+
+}
+
+.books-list {
+    font-weight: 400;
+    font-size: 16px;
+
+    padding-left: 20px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.text-field {
+    padding: 9px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+}
+
+.line {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+table {
+    border: 1px solid #95a1bb;
+    width: 113px;
+    height: 40px;
+}
+
+th,
+td {
+    padding: 11px 12px;
+}
+
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+}
